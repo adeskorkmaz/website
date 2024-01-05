@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Bootstrap 4 Website Example</title>
   <meta charset="utf-8">
@@ -9,83 +10,97 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
+    .fakeimg {
+      height: 200px;
+      background: #aaa;
+    }
+
+    .jumbotron {
+      border-radius: 0 !important;
+    }
+
+    .site-footer {
+      height: 150px !important;
+    }
+
+    h2 {
+      text-shadow: 2px 2px gray;
+    }
   </style>
 </head>
+
 <body>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <h1>Sustainable Future</h1>
-  <p>Make your life simple.</p> 
-</div>
+  <div class="jumbotron text-center" style="margin-bottom:0; background-color: #343a40!important; color: white;">
+    <h1 style="font-weight: bold;">Sustainable Future</h1>
+    <p><i>Make your life simple.</i></p>
+  </div>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">♻️</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Sustainablity</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Concact</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
-
-<div class="container" style="margin-top:30px">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3>Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="background: #212529 !important;">
+    <a class="navbar-brand" href="#">♻️</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Sustainablity</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
-      <hr class="d-sm-none">
     </div>
-    <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </nav>
+
+  <div class="container-fluid" style="margin-top:30px">
+    <div class="row">
+      <div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+        <h2>ALIQUAM PLACERAT</h2>
+        <h6>Jan 5, 2024</h6>
+        <div style="text-align: center;">
+          <img src="images/sustainability-2.webp" style="width: 30%; margin: 3%;"/>
+        </div>
+        <p>Sed nec felis mi. Nullam tempus ultricies enim, id maximus neque fermentum in. Nunc urna libero, finibus vel
+          eros sit amet, scelerisque condimentum nisi. Quisque non scelerisque ex. Donec porta nisl odio, vel aliquet
+          magna iaculis ac. Aliquam elit purus, hendrerit eget lorem eget, efficitur euismod arcu. In vel diam est. Sed
+          porta vel nulla non ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+          cubilia curae; Donec sit amet finibus mi, sed porta erat. Nulla lobortis aliquam felis, sit amet ultrices
+          magna vestibulum et. Morbi cursus justo ligula.</p>
+      </div>
+      <div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+        <h2>VITAE MOLLIS IACULIS</h2>
+        <h6>Dec 7, 2023</h6>
+        <div style="text-align: center;">
+          <img src="images/sustainability-1.png"/>
+        </div>
+        <p>Suspendisse potenti. Cras in nisl id est vestibulum imperdiet. Aenean sagittis ut magna quis eleifend.
+          Maecenas quam risus, maximus quis euismod vitae, eleifend ac dui. Curabitur in sapien a mi auctor bibendum
+          fermentum non diam. Aenean hendrerit pretium urna at tempor. Praesent ac lacus aliquet, ultrices ligula vitae,
+          lobortis quam. Etiam dapibus vestibulum eros, fermentum sodales arcu posuere vitae.</p>
+      </div>
+      <div class="col-xl-4 col-md-4 col-sm-6 col-xs-12">
+        <h2>QUISQUE NIBH ANTE</h2>
+        <h6>Dec 30, 2023</h6>
+        <div style="text-align: center;">
+          <img src="images/sustainability-3.jpg" width="50%"/>
+        </div>
+        <p>Ut viverra neque lorem, eget sollicitudin neque tristique vitae. Suspendisse sit amet sodales metus. Aenean
+          eu ipsum accumsan, varius ante nec, suscipit lorem. Vivamus vitae feugiat diam, id porta ex. Sed ut nulla
+          lorem. In ac libero sit amet odio faucibus ultricies facilisis sit amet turpis. Nulla dignissim, ipsum vitae
+          tempus porta, metus eros consectetur eros, ut sollicitudin justo nisi a ex. Integer sagittis ipsum bibendum,
+          efficitur metus ut, pellentesque mauris.</p>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
-</div>
+  <div class="jumbotron text-center site-footer" style="margin-bottom:0">
+    Copyright &copy; Sustainable Future Inc.
+  </div>
 
 </body>
+
 </html>
